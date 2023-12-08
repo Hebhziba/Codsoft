@@ -1,0 +1,391 @@
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+.donate{
+      background-color: antiquewhite;
+}
+.logo{
+    width: 80px;
+    height: 100px;
+    margin: 20px;
+}
+.logo-content{
+    display: flex;
+}
+.logo-text{
+    font-size: 23px;
+    margin-top: 32px;
+}
+span{
+    font-family: cursive;
+}
+nav{
+    background-color: wheat;
+    font-size: 23px;
+    width: 100%;
+}
+nav li{
+    display: block;
+    margin: 0 8px;
+    padding: 10px 0;
+    
+}
+nav a{
+    text-decoration: none;
+    color: chocolate;
+}
+nav a:hover{
+    color: black;
+}
+ul{
+    text-align: center;
+    padding: 0;
+    display: none;
+    
+}
+.menu-line{
+    height: 4px;
+    width: 28px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+.menu{
+    cursor: pointer;
+    position: absolute;
+    right:20px;
+    top: 4em;
+}
+.content1{
+    text-indent: 70px;
+    font-size: 1.2em;
+}
+.container2{
+    background-color: cornsilk;
+}
+.showmenu{
+    display: block;
+}
+.heading{
+    margin-top: 1.5em;
+    font-size: 26px; 
+}
+h3{
+    font-style: italic;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #000;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 34px;
+  border: 1px solid #000;
+  background-color: rgb(210, 140, 140);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  right: 10px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 100%;
+  position: absolute;
+  top: 12em;
+  left: 13.4em;
+  transform: translate(-50%, -50%);
+}
+/*book list*/
+div.scrollmenu1{
+    height: 250px;
+    background-color: bisque;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction:row;
+}
+div.scrollmenu1 .book{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+   
+}
+.book img{
+    height: 180px;
+    width: 130px;
+    border-radius: 6px;
+}
+.book button{
+   padding: 6px;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(210, 154, 140);
+   border-radius: 6px;   
+
+}
+.book button:hover{
+    background-color: sienna;
+}
+.book a:hover{
+
+    background-color: aliceblue;
+}
+
+/*About*/
+.about-container{
+    background-color: ivory;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 0px solid;
+    border-radius: 8px;
+    padding: 10px;
+}
+.about-container h2{
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.about-container p{
+    text-indent: 50px;
+    text-align: justify;
+
+}
+.about-container .hide{
+    display: none;
+}
+.about-container img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    right: 10px;
+    border-radius: 8px;
+}
+/*designing*/
+.design{
+    width: 50px;
+    
+}
+.design1{
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+.design11{
+    width: 50px;
+}
+.design2{
+    width: 50px;
+   
+}
+.design3{
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+.design4{
+    width: 50px;
+    
+}
+.design5{
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+.design6{
+    width: 50px;
+    
+}
+.design7{
+    width: 50px;
+    position: relative;
+    top: 50px;
+}
+.design8{
+    display: none;
+}
+.design9{
+    display: none;
+}
+
+/*contact*/
+.contact-container{
+    box-sizing: border-box;
+    font-family: poppins;
+	font-size: 16px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto auto;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+    top: 250em;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 400px;
+	height: 760px;
+}
+.contact-container:before {
+	background-image: url("https://i.postimg.cc/8cnYLpfc/ddddd.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+	filter: blur(2px);
+}
+.contact-container .heading {
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	margin-left: 80px;
+}
+.contact-container input {
+	margin: 5px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	font-size: 18px;
+	font-family: poppins;
+}
+.contact-container input[type=checkbox] {
+	display: none;
+}
+.contact-container label {
+    display: none;
+}
+.contact-container label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 1px;
+	background-color: #ddd;
+}
+.contact-container input[type=checkbox]:checked+label:before {
+	content: "\2713";
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 20px;
+}
+.contact-container span {
+	font-size: 14px;
+}
+.contact-container button {
+	background-color: deepskyblue;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 40%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 80px;
+    
+}
+span a {
+	color: #BBB;
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+}
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    position: relative;
+    top: 800px;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    text-align: center;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .footer .row ul li{
+    display:inline;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }

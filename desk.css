@@ -1,0 +1,153 @@
+@media (min-width:801px){
+    .menu{
+        display: none;
+    }
+    .container2 nav li{
+        display: inline;
+    }
+    nav a{
+        text-decoration: none;
+        color: chocolate;
+    }
+    .logo-content{
+        position: relative;
+        
+    }
+    nav ul{
+        display: inline;
+        position: absolute;
+        top: 65px;
+        right: 40px;
+
+    }
+    nav li{
+        margin: 30px;
+    }
+    
+.searchTerm {
+    width: 80em;
+    position: relative;
+    left:53em;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    position: relative;
+    left: 35em;
+    height: 36px;
+  }
+  .heading{
+    margin-top: 2.5em;
+}
+.design{
+    width: 150px;
+    margin-left: 230px;
+}
+.design1{
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+.design2{
+    width: 150px;
+   
+}
+.design3{
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+.design4{
+    width: 150px;
+    
+}
+.design5{
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+.design6{
+    width: 150px;
+    
+}
+.design7{
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+.design8{
+    width: 150px;
+    
+}
+.design9{
+    width: 150px;
+    position: relative;
+    top: 50px;
+}
+.about-container .heading{
+    font-size: 32px;
+    margin-left: 20em;
+}
+.about-container .contains{
+    display: flex;
+}
+.about-container p{
+    flex: 1;
+    padding: 20px;
+    font-size: 22px;
+} 
+.about-container img{
+    flex: 1;
+    height: 24em;
+}
+.about-container .hide{
+    display: block;
+    flex-wrap: wrap;
+}
+.about-container h3{
+    font-size: 26px;
+}
+.footer .row ul{
+    display: none;
+}
+.contact-container{
+    width: 60em;
+    height: 35em;
+    
+}
+.contact-container .heading{
+    margin-left: 12em;
+    margin-top: 30px;
+}
+.contact-container p{
+    align-items: center;
+    margin-left: 18em;
+}
+.contact-container .contact{
+    display: flex;
+
+}
+.contact-container .contact .left{
+    flex: 1;
+}
+.contact-container .contact .right{
+    flex: 1;
+}
+.contact-container .contact label{
+    display: inline;
+    
+}
+.contact-container .contact input{
+    width: 80%;
+}
+.contact-container button{
+    width: 20%;
+    margin-left: 18em;
+}
+.container .desig{
+    display: none;
+}
+}
